@@ -1,0 +1,16 @@
+{
+    "name": "SparkMotor",
+    "version": "1.0.0",
+    "description": "A simple motor control class for Arduino with dual motor support using SparkMotor(BTS7960) drivers.",
+    "keywords": ["motor", "sparkmotor", "arduino", "robotics", "control", "bts7960", "stm32"],
+    "authors": [
+      {
+        "name": "Nurul Islam",
+        "email": "noman1272003@gmail.com"
+      }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
+  
