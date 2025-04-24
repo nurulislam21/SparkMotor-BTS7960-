@@ -8,8 +8,7 @@
 
 - Control two DC motors independently
 - Simple API with intuitive operator overloading
-- Supports custom pin assignments
-- Designed for BTS7960 motor drivers
+- Supports custom pin assignments- Designed for BTS7960 motor drivers
 - Lightweight and efficient
 
 ---

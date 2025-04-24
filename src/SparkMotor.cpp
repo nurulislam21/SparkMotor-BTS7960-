@@ -2,11 +2,11 @@
 #include <Arduino.h>
 
 SparkMotor::SparkMotor(
-    int rpwm_l, int lpwm_l, int en_l,
-    int rpwm_r, int lpwm_r, int en_r
+    int fpwm_l, int bpwm_l, int en_l,
+    int fpwm_r, int bpwm_r, int en_r
 ) : 
-    _rpwm_l(rpwm_l), _lpwm_l(lpwm_l), _en_l(en_l),
-    _rpwm_r(rpwm_r), _lpwm_r(lpwm_r), _en_r(en_r) {}
+    _rpwm_l(fpwm_l), _lpwm_l(bpwm_l), _en_l(en_l),
+    _rpwm_r(fpwm_r), _lpwm_r(bpwm_r), _en_r(en_r) {}
 
 void SparkMotor::begin() {
     pinMode(_rpwm_l, OUTPUT);
