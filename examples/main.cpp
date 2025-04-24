@@ -2,7 +2,7 @@
 #include <SparkMotor.h>
 
 SparkMotor motors;
-// Format: SparkMotor(left_RPWM, left_LPWM, left_EN, right_RPWM, right_LPWM, right_EN)
+// Format: SparkMotor(left_FPWM, left_BPWM, left_EN, right_FPWM, right_BPWM, right_EN)
 // SparkMotor motors(5, 6, 7, 4, 3, 2);  // Example custom setup
 
 void setup() {
